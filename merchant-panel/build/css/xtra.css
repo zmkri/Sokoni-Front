@@ -1,0 +1,105 @@
+.left_col, .main_container, .sidebar-footer{
+    background: #2BBBAD !important;
+}
+
+.sidebar-footer> a{
+	background: #2BBBAD;
+	color: #ffffff;
+}
+
+.sidebar-footer a:hover {
+    background: #00876c;
+}
+
+.nav_menu{
+	background: #2BBBAD;
+}
+
+.side-menu> li> a:hover{
+    background: #00876c;
+/*	opacity: 0.8;*/
+}
+
+.nav.side-menu>li>a, .nav.child_menu>li>a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav.side-menu>li.current-page, .nav.side-menu>li.active {
+	background: #229286;
+    border-right: 5px solid #1d7d73;
+    border-radius: 3px;
+}
+
+.bars-white{
+	color: #ffffff;
+}
+
+.user-prof> a, dropdown-usermenu {
+    background: #2BBBAD !important;
+}
+
+.user-prof> a:hover {
+    color: #ffffff;
+}
+
+.dropdown-usermenu{
+	background: #2BBBAD !important;
+}
+
+.dropdown-usermenu> li> a{
+	color: #ffffff;
+}
+
+.dropdown-usermenu> li> a:hover{
+	background: #00B996;
+	opacity: 0.6;
+}
+
+.profile_details .profile_view .left{
+	margin: 0 0 5px 0;
+	padding: 0 5px 0 0;
+}
+
+.inline{
+	display: relative;
+}
+
+.img-cart img{
+	height: 125px;
+}
+
+.card-image{
+    /*width: 100%;*/
+    height: 230px;
+}
+
+.card .card-content{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.card .card-btn{
+    padding: 0;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.cart-row{
+    margin-bottom: 2px;
+}
+
+.table> tbody> tr> td.td-pad-4{
+    padding: 4px;
+}
+
+.reder{
+    background: #cc0000;
+}
+
+@media screen and (max-width: 480px) {
+    .display-sm-none{
+        display: none;
+    }
+}
