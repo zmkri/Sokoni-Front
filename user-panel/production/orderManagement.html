@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sokoni </title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../build/css/mdb2.css">
+    <link href="../build/css/xtra.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile">
+              <div class="profile_pic">
+                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <h6>Welcome,</h6>
+                <h2>John Doe</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+                  <li><a href="http://sokoni.getforge.io/"><i class="fa fa-home"></i> Home <span class="fa fa-chevron-right"></span></a></li>
+                  <li><a href="userProfile.html"><i class="fa fa-user"></i> Profile <span class="fa fa-chevron-down"></span></a></li>
+                  <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart <span class="fa fa-chevron-down"></span></a></li>
+                  <li><a href="orderManagement.html"><i class="fa fa-edit"></i> Order Management <span class="fa fa-chevron-down"></span></a></li>
+                  <li><a href="myWishlist.html"><i class="fa fa-heart"></i> My Wishlist <span class="fa fa-chevron-down"></span></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle" class="bars-white"><i class="fa fa-bars"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="user-prof">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="images/img.jpg" alt="">John Doe
+                    <span class=" fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="javascript:;"> Profile</a></li>
+                    <li><a href="javascript:;">Help</a></li>
+                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                  </ul>
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                <h5>Orders</h5>
+              </div>
+
+              <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                  <div class="form-group waves-effect waves-light">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h5>Current Orders</h5>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <p>To View Current Order Vist Cart</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h5>Order History</h5>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                     <table class="table table-hover table-reponsive">
+                            <thead>
+                              <tr>
+                                <th>Date</th>
+                                <th># Items</th>
+                                <th>Grand Total</th>
+                                <th>Payment</th>
+                                <th></th>
+                                <th></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr data-toggle="modal" data-target="#myModal">
+                                <td>12/07/2016</td>
+                                <td><span class="badge blue white-text">3</span></td>
+                                <td>$64.50</td>
+                                <td>M-pesa</td>
+                                <td><i class="fa fa-eye"></i></td>
+                                <td><span class="label label-primary">Pending</span></td>
+                              </tr>
+                              <tr>
+                                <td>10/06/2016</td>
+                                <td><span class="badge blue white-text">3</span></td>
+                                <td>$64.50</td>
+                                <td>Tigo Pesa</td>
+                                <td><i class="fa fa-eye"></i></td>
+                                <td><span class="label label-warning">Cancelled</span></td>
+                              </tr>
+                              <tr>
+                                <td>15/05/2016</td>
+                                <td><span class="badge blue white-text">3</span></td>
+                                <td>$64.50</td>
+                                <td>Cash</td>
+                                <td><i class="fa fa-eye"></i></td>
+                                <td><span class="label label-success">Complete</span></td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+                          <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">
+            12/07/2016 <br>
+            Items:<span class="badge blue white-text">3</span>
+            <span class="label label-success pull-right">Complete</span>
+          </h4>
+        </div>
+        <div class="modal-body">
+          <table class="table table-hover table-reponsive">
+            <tbody>
+              <tr>
+                <td scope="row">
+                  <div class="col-sm-12">
+                  <div class="left col-xs-12 col-sm-3 col-md-3 text-center img-cart">
+                    <img src="images/prod-1.jpg" alt="" class="img-responsive">
+                  </div>
+                  <div class="right col-xs-12 col-sm-3 col-md-3">
+                    <h5>Timber Land Hikers</h5>
+                    <p></p>
+                    <ul class="list-unstyled">
+                      <li>Price: 120.000 Tsh</li>
+                      <li></li>
+                    </ul>
+                  </div>
+                  <div class="pull-right col-xs-6 col-sm-2 col-md-2">
+                    Quantity:&nbsp;<span class="badge blue white-text">3</span>
+                  </div>
+                </div>
+                </td>
+                <td>240000 Tsh</td>
+              </tr>
+
+              <tr>
+                <td scope="row">
+                  <div class="col-sm-12">
+                  <div class="left col-xs-12 col-sm-3 col-md-3 text-center img-cart">
+                    <img src="images/prod-1.jpg" alt="" class="img-responsive">
+                  </div>
+                  <div class="right col-xs-12 col-sm-3 col-md-3">
+                    <h6>Timber Land Hikers</h6>
+                    <p></p>
+                    <ul class="list-unstyled">
+                      <li>Price: 120.000 Tsh</li>
+                      <li></li>
+                    </ul>
+                  </div>
+                  <div class="pull-right col-xs-6 col-sm-2 col-md-2">
+                    Quantity:&nbsp;<span class="badge blue white-text">1</span>
+                  </div>
+                </div>
+                </td>
+                <td>240000 Tsh</td>
+              </tr>
+
+              <tr>
+                <td scope="row">
+                  <div class="col-sm-12">
+                  <div class="left col-xs-12 col-sm-3 col-md-3 text-center img-cart">
+                    <img src="images/prod-1.jpg" alt="" class="img-responsive">
+                  </div>
+                  <div class="right col-xs-12 col-sm-3 col-md-3">
+                    <h6>Timber Land Hikers</h6>
+                    <p></p>
+                    <ul class="list-unstyled">
+                      <li>Price: 120.000 Tsh</li>
+                      <li></li>
+                    </ul>
+                  </div>
+                  <div class="col-xs-6 col-sm-2 col-md-2 pull-right">
+                    Quantity:&nbsp;<span class="badge blue white-text">1</span>
+                  </div>
+                </div>
+                </td>
+                <td>240000 Tsh</td>
+              </tr>
+
+              <tr>
+                <td class="td-pad-4"><p class="cart-row"><strong>Sub Total</strong></p></td>
+                <td class="td-pad-4"><p class="cart-row">480000</p></td>
+              </tr>
+              <tr>
+                <td class="td-pad-4"><p class="cart-row"><strong>Vat 18%</strong></p></td>
+                <td class="td-pad-4"><p class="cart-row">4800</p></td>
+              </tr>
+              <tr>
+                <td class="td-pad-4"><p class="cart-row"><strong>Grand Total (Tsh)</strong></p></td>
+                <td class="td-pad-4"><p class="cart-row"><strong>484800</strong></p></td>
+              </tr>
+              <tr>
+                <td class="td-pad-4"><p class="cart-row"><strong>Status</strong></p></td>
+                <td class="td-pad-4"><p class="cart-row"><strong><span class="label label-success">Complete</span></strong></p></td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                  </div>
+                </div>
+              </div>
+
+
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            <!-- &copy; Designed by: Azim A. Mukri -->
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- FastClick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+    <!-- NProgress -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
+    
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+    <script src="../build/js/mdb2.js"></script>
+
+  </body>
+</html>

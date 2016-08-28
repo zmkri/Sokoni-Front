@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sokoni </title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome + Material Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../build/css/mdb2.css">
+    <link href="../build/css/xtra.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <!-- <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Azim Mukri!</span></a>
+            </div> -->
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile">
+              <div class="profile_pic">
+                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <h6>Welcome,</h6>
+                <h2>John Doe</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+                  <li><a href="http://sokoni.neocities.org/"><i class="fa fa-home"></i> Home <span class="fa fa-chevron-right"></span></a></li>
+                  <li><a href="userProfile.html"><i class="fa fa-user"></i> Profile <span class="fa fa-chevron-down"></span></a></li>
+                  <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart <span class="fa fa-chevron-down"></span></a></li>
+                  <li><a href="orderManagement.html"><i class="fa fa-edit"></i> Order Management <span class="fa fa-chevron-down"></span></a></li>
+                  <li><a href="myWishlist.html"><i class="fa fa-heart"></i> My Wishlist <span class="fa fa-chevron-down"></span></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle" class="bars-white"><i class="fa fa-bars"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="user-prof">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="images/img.jpg" alt="">John Doe
+                    <span class=" fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="javascript:;">Help</a></li>
+                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                  </ul>
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                <h5><span class="fa fa-heart"></span>&nbsp;My Wishlist</h5>
+              </div>
+
+              <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                  <div class="form-group waves-effect waves-light">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="row">
+              <div class="col-md-12 col-sm-12">
+                <div class="x_panel">
+                  <div class="x_content">
+                    <div class="row">
+
+                    <div class="clearfix"></div>
+
+                      <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="card card-min hoverable">
+                          <!--Image-->
+                          <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                              <!--Discount label-->
+                              <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                              
+                              <a href=""><img src="images/prod-1.jpg" class="card-image">
+                                  <div class="mask"> </div>
+                              </a>
+                          </div>
+                          <!--/.Image-->
+                          
+                          <!--Social share buttons-->
+                              <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                          <!--/.Social share buttons-->
+
+                          <!--Card content: Name and price-->
+                          <div class="card-content">             
+                              <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                              <p>Slim fit waist Coat</p>
+                          </div>
+                          <!--/.Card content: Name and price-->
+
+                          <!--Buttons-->
+                          <div class="card-btn text-center">
+                              <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                              <i class="fa fa-search"></i></a>
+                              <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                          </div>
+                          <!--/.Buttons-->
+
+                          <!--Social buttons-->
+                          <div class="card-reveal text-center">
+                              <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                              <hr>
+                              <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                              <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                              <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                              <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                              <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                          </div>
+                          <!--/.Social buttons-->
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="card card-min hoverable">
+                          <!--Image-->
+                          <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                              <!--Discount label-->
+                              <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                              
+                              <a href=""><img src="images/prod-1.jpg" class="card-image">
+                                  <div class="mask"> </div>
+                              </a>
+                          </div>
+                          <!--/.Image-->
+                          
+                          <!--Social share buttons-->
+                              <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                          <!--/.Social share buttons-->
+
+                          <!--Card content: Name and price-->
+                          <div class="card-content">             
+                              <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                              <p>Slim fit waist Coat</p>
+                          </div>
+                          <!--/.Card content: Name and price-->
+
+                          <!--Buttons-->
+                          <div class="card-btn text-center">
+                              <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                              <i class="fa fa-search"></i></a>
+                              <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                          </div>
+                          <!--/.Buttons-->
+
+                          <!--Social buttons-->
+                          <div class="card-reveal text-center">
+                              <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                              <hr>
+                              <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                              <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                              <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                              <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                              <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                          </div>
+                          <!--/.Social buttons-->
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="card card-min hoverable">
+                          <!--Image-->
+                          <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                              <!--Discount label-->
+                              <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                              
+                              <a href=""><img src="images/prod-1.jpg" class="card-image">
+                                  <div class="mask"> </div>
+                              </a>
+                          </div>
+                          <!--/.Image-->
+                          
+                          <!--Social share buttons-->
+                              <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                          <!--/.Social share buttons-->
+
+                          <!--Card content: Name and price-->
+                          <div class="card-content">             
+                              <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                              <p>Slim fit waist Coat</p>
+                          </div>
+                          <!--/.Card content: Name and price-->
+
+                          <!--Buttons-->
+                          <div class="card-btn text-center">
+                              <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                              <i class="fa fa-search"></i></a>
+                              <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                          </div>
+                          <!--/.Buttons-->
+
+                          <!--Social buttons-->
+                          <div class="card-reveal text-center">
+                              <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                              <hr>
+                              <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                              <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                              <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                              <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                              <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                          </div>
+                          <!--/.Social buttons-->
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="card card-min hoverable">
+                          <!--Image-->
+                          <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                              <!--Discount label-->
+                              <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                              
+                              <a href=""><img src="images/prod-1.jpg" class="card-image">
+                                  <div class="mask"> </div>
+                              </a>
+                          </div>
+                          <!--/.Image-->
+                          
+                          <!--Social share buttons-->
+                              <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                          <!--/.Social share buttons-->
+
+                          <!--Card content: Name and price-->
+                          <div class="card-content">             
+                              <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                              <p>Slim fit waist Coat</p>
+                          </div>
+                          <!--/.Card content: Name and price-->
+
+                          <!--Buttons-->
+                          <div class="card-btn text-center">
+                              <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                              <i class="fa fa-search"></i></a>
+                              <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                          </div>
+                          <!--/.Buttons-->
+
+                          <!--Social buttons-->
+                          <div class="card-reveal text-center">
+                              <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                              <hr>
+                              <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                              <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                              <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                              <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                              <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                          </div>
+                          <!--/.Social buttons-->
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="card card-min hoverable">
+                          <!--Image-->
+                          <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                              <!--Discount label-->
+                              <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                              
+                              <a href=""><img src="images/prod-1.jpg" class="card-image">
+                                  <div class="mask"> </div>
+                              </a>
+                          </div>
+                          <!--/.Image-->
+                          
+                          <!--Social share buttons-->
+                              <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                          <!--/.Social share buttons-->
+
+                          <!--Card content: Name and price-->
+                          <div class="card-content">             
+                              <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                              <p>Slim fit waist Coat</p>
+                          </div>
+                          <!--/.Card content: Name and price-->
+
+                          <!--Buttons-->
+                          <div class="card-btn text-center">
+                              <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                              <i class="fa fa-search"></i></a>
+                              <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                          </div>
+                          <!--/.Buttons-->
+
+                          <!--Social buttons-->
+                          <div class="card-reveal text-center">
+                              <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                              <hr>
+                              <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                              <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                              <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                              <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                              <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                          </div>
+                          <!--/.Social buttons-->
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+
+
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            <!-- 2016 &copy; Designed by: Azim A. Mukri -->
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+    <script src="../build/js/mdb2.js"></script>
+  </body>
+</html>
