@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <title>Sokoni App</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design -->
+    <link href="css/mdb2.css" rel="stylesheet">
+
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    
+<nav class="navbar default-color">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand waves-effect waves-light" href="#"><span class="romanesco">Sokoni</span></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html" class="waves-effect waves-light">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="shops.html" class="waves-effect waves-light">Shop</a></li>
+                <li><a href="login.html" class="waves-effect waves-light">Login/SignUp</a></li>
+                <li><a href="#" class="waves-effect waves-light">Cart</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="card-panel">
+
+            <h3>Sign Up For Merchant Account</h3>
+
+            <div class="row">
+              <form method="" action="" class="col-md-12">
+
+                <h5 class="romanesco">Shop Owner Info</h5>
+                <div class="row">
+                  <div class="input-field col-md-4">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                  </div>
+                  <div class="input-field col-md-4">
+                    <input id="middle_name" type="text" class="validate">
+                    <label for="middle_name">Middle Name</label>
+                  </div>
+                  <div class="input-field col-md-4">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col-md-4">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="input-field col-md-4">
+                    <input id="phone" type="number" class="validate" max="17">
+                    <label for="phone">Phone Number</label>
+                  </div>
+                  <div class="input-field col-md-4">
+                    <input id="mobile" type="number" class="validate" max="17">
+                    <label for="mobile">Mobile Number</label>
+                  </div>
+                </div>
+
+                <hr>
+
+                <h5 class="romanesco">Shop Details</h5>
+
+                <div class="row">
+                  <div class="input-field col-md-12">
+                    <input id="shop_name" type="text" class="validate">
+                    <label for="shop_name">Shop Name</label>
+                  </div> 
+                </div>
+
+                <div class="row">
+                  <div class="input-field col-md-4">
+                    <select>
+                      <option value="" disabled selected>Country</option>
+                      <option value="1">Tanzania</option>
+                      <option value="2">Kenya</option>
+                      <option value="3">Uganda</option>
+                    </select>
+                  </div>
+                  <div class="input-field col-md-4">
+                    <select>
+                      <option value="" disabled selected>City</option>
+                      <option value="1">Dar-es-salaam</option>
+                      <option value="2">Moshi</option>
+                      <option value="3">Arusha</option>
+                    </select>
+                  </div>
+                  <div class="input-field col-md-4">
+                    <input id="post" type="text" class="validate" max="17">
+                    <label for="post">Postal Address</label>
+                  </div>                    
+                </div>
+
+                <div class="row">
+                  <div class="input-field col-md-8">
+                    <input id="tra-number" type="number" class="validate" max="17">
+                    <label for="tra-number">TIN Number</label>
+                  </div>
+                </div>
+
+                <hr>
+
+                <h5 class="romanesco">User Info</h5>
+                <div class="row">
+                  <div class="input-field col-md-4">
+                    <input id="username" type="text" class="validate">
+                    <label for="username">Username</label>
+                  </div>
+                  <div class="input-field col-md-4">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                  </div>
+                  <div class="input-field col-md-4">
+                    <input id="re-password" type="password" class="validate">
+                    <label for="re-password">Re-enter Password</label>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                <div class="text-center">
+                  <a class="btn btn-danger btn-rounded waves-effect waves-light"><span class="fa fa-times"></span>&nbsp;Cancel</a>
+                  <a class="btn btn-success btn-rounded waves-effect waves-light">Sign Up&nbsp;<span class="fa fa-arrow-right"></span></a>
+                </div>
+                </div>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+    </div>
+</div>
+
+  <!-- Footer -->
+  <footer class="page-footer default-color darken-1" if="footer">
+    <div class="container">
+      <div class="row">
+        <hr class="hidden-lg hidden-md">
+
+        <div class="col-md-2">
+          <p class="white-text center-on-small-only">USEFUL LINKS</p>
+          <ul>
+            <li><a href="#" class="grey-text text-lighten-3" href="#!">Contact us</a>
+            </li>
+            <li><a class="grey-text text-lighten-3" href="#!" target="_blank">About</a>
+            </li>
+            <li><a class="grey-text text-lighten-3" href="#!" target="_blank">Support</a>
+            </li>
+            <li><a class="grey-text text-lighten-3" href="#!" target="_blank">Privact & Policy</a>
+            </li>
+
+          </ul>
+        </div>
+        <hr class="hidden-lg hidden-md">
+
+        <div class="col-md-3 text-center pull-right">
+          <p class="white-text text-center"> SOCIAL MEDIA</p>
+          <a target="_blank" href="#" class="btn-floating btn-large fb-bg waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+          <a target="_blank" href="#" class="btn-floating btn-large tw-bg waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+          <a target="_blank" href="#" class="btn-floating btn-large gplus-bg waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="text-center">
+        <div class="col-md-10 col-md-offset-1"> © 2015 Copyright <a href="">Designed By: Azim Mukri </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!-- Start your project here-->
+
+    <!-- /Start your project here-->
+    
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Core JavaScript -->
+    <script type="text/javascript" src="js/mdb2.js"></script>
+
+    <!-- Special JavaScript -->
+    <script type="text/javascript" src="js/app.js"></script>
+
+
+</body>
+
+</html>

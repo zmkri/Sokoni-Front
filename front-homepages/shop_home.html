@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <title>Sokoni App</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design -->
+    <link href="css/mdb2.css" rel="stylesheet">
+
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    
+<nav class="navbar default-color">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand waves-effect waves-light" href="#"><span class="romanesco">Sokoni</span></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html" class="waves-effect waves-light">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="shops.html" class="waves-effect waves-light">Shop</a></li>
+                <li><a href="login.html" class="waves-effect waves-light">Login/SignUp</a></li>
+                <li><a href="#" class="waves-effect waves-light">Cart</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="shop-banner">
+  <div class="row intro-row">
+
+    <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12">
+    <div class="card">
+        <div class="card-image img-shop-logo">
+            <div>
+            <img class="img-responsive img-shop-logo" alt="" src="img/img-soko-1.jpg">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="col-md-7 col-sm-8 col-xs-12">
+    <div class="card">
+        <div class="card-content">
+        <h5>Awesome Technologies<span class="pull-right">3.8</span></h5>
+        <div class="row container-fluid">
+            <i class="material-icons">star</i>
+            <i class="material-icons">star</i>
+            <i class="material-icons">star</i>
+            <i class="material-icons">star</i>
+            <i class="material-icons">star_border</i>
+
+            <span class="pull-right">
+                <a href="#" data-toggle="modal" data-target="#modalLogin"><span class="badge">5</span> Reviews</a>
+            </span>
+        </div>
+        <br>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut liquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <div class="card-footer text-right">
+                 <span class="card-title activator grey-text text-darken-4"><a class="black-text waves-effect"><i class="material-icons">share</i></a></span>
+            </div>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Share<i class="material-icons right">close</i></span>
+            <a class="btn-floating btn-large fb-bg waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+            <a class="btn-floating btn-large tw-bg waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+            <a class="btn-floating btn-large gplus-bg waves-effect waves-light"><i class="fa fa-google-plus"></i></a>
+            <a class="btn-floating btn-large ins-bg waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+            <a class="btn-floating btn-large email-bg waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+        </div>
+    </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="modal fade" id="modalLogin" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body" style="padding:10px 20px;">
+                <div class="row">
+                    <form class="col-md-12">
+                        <div class="row">
+                            <div class="input-field col-md-8">
+                                <input id="review" type="text" class="validate">
+                                <label for="review">Review</label>
+                            </div>
+                            <br>
+                            <div class="col-md-2">
+                                <select>
+                                    <option value="" disabled selected  class="text-center">Rating</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-sm btn-default pull-right">Submit Review</button>
+                            </div>
+                        </div>
+                    </form>
+                    <hr>
+                    <h5>Reviews</h5>
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <img src="img/material-design-red.jpg" alt="" class="circle">
+                            <span class="title">Rodrick <span class="pull-right"><i class="material-icons">star</i> <i class="material-icons">star</i>  <i class="material-icons">star</i>   <i class="material-icons">star</i> <i class="material-icons">star_border</i>     </span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ostrud exercitation ullamco laboris nisi ut liquip ex ea commodo consequat.</p> 
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="img/material-design-red.jpg" alt="" class="circle">
+                            <span class="title">Rodrick <span class="pull-right"><i class="material-icons">star</i> <i class="material-icons">star</i>  <i class="material-icons">star</i>   <i class="material-icons">star</i> <i class="material-icons">star_border</i>     </span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ostrud exercitation ullamco laboris nisi ut liquip ex ea commodo consequat.</p> 
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="img/material-design-red.jpg" alt="" class="circle">
+                            <span class="title">Rodrick <span class="pull-right"><i class="material-icons">star</i> <i class="material-icons">star</i>  <i class="material-icons">star</i>   <i class="material-icons">star</i> <i class="material-icons">star_border</i>     </span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ostrud exercitation ullamco laboris nisi ut liquip ex ea commodo consequat.</p> 
+                        </li>                        
+
+                    </ul>
+                    <div class="col-md-offset-4 col-md-4">
+                        <a class="btn btn-block btn-default" href="shop_review_all.html"> View All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<hr>
+<!-- Filter -->
+<div class="shop-banner">
+  <div class="row intro-row">
+    <div class="col-md-10 col-sm-10 col-xs-12 col-md-offset-1">
+    <h6>Filter</h6>
+        <form class="col-md-12">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <select>
+                        <option value="" disabled selected  class="text-center">Category</option>
+                        <option value="1">Cat-1</option>
+                        <option value="2">Cat-2</option>
+                        <option value="3">Cat-3</option>
+                    </select>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <select>
+                        <option value="" disabled selected  class="text-center">Sub-Category</option>
+                        <option value="1">SubCat-1</option>
+                        <option value="2">SubCat-2</option>
+                        <option value="3">SubCat-3</option>
+                    </select>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                Price
+                    <div class="range-field">
+                        <input type="range" id="test5" min="0" max="100" />
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-sm btn-default pull-right">Search</button>
+            </div>
+            <hr>
+        </form>   
+    </div>
+  </div>
+</div>
+<!-- End Filter -->
+
+<div class="shop-banner">
+    <div class="row intro-row">
+        <div class="col-md-12">
+
+             <!-- Main Content -->
+            <div class="col-md-2 col-sm-4 col-xs-6">
+
+                <!--Card-->
+                <div class="card card-min hoverable">
+                    <!--Image-->
+                    <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                        <!--Discount label-->
+                        <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                        
+                        <a href=""><img src="img/tyjhdy.jpg" class="card-image">
+                            <div class="mask"> </div>
+                        </a>
+                    </div>
+                    <!--/.Image-->
+                    
+                    <!--Social share buttons-->
+                        <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                    <!--/.Social share buttons-->
+
+                    <!--Card content: Name and price-->
+                    <div class="card-content">             
+                        <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                        <!-- <p class="product-title">Lois Vuitton <i class="material-icons">chevron_right</i></p> -->
+                        <p>Slim fit waist Coat</p>
+                    </div>
+                    <!--/.Card content: Name and price-->
+
+                    <!--Buttons-->
+                    <div class="card-btn text-center">
+                        <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                        <i class="fa fa-search"></i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">favorite</i></a>
+                    </div>
+                    <!--/.Buttons-->
+
+                    <!--Social buttons-->
+                    <div class="card-reveal text-center">
+                        <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                        <hr>
+                        <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                        <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                        <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                        <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                        <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                        <a class="btn-sm red rectangle waves-effect waves-light"><i class="fa fa-heart"></i></a>
+                    </div>
+                    <!--/.Social buttons-->
+                </div>
+                <!--/.Card-->
+            </div> <!-- md4 -->
+
+            <div class="col-md-2 col-sm-4 col-xs-6">
+
+                <!--Card-->
+                <div class="card card-min hoverable">
+                    <!--Image-->
+                    <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                        <!--Discount label-->
+                        <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                        
+                        <a href=""><img src="img/tux.jpg" class="card-image">
+                            <div class="mask"> </div>
+                        </a>
+                    </div>
+                    <!--/.Image-->
+                    
+                    <!--Social share buttons-->
+                        <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                    <!--/.Social share buttons-->
+
+                    <!--Card content: Name and price-->
+                    <div class="card-content">             
+                        <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                        <p>Slim fit waist Coat</p>
+                    </div>
+                    <!--/.Card content: Name and price-->
+
+                    <!--Buttons-->
+                    <div class="card-btn text-center">
+                        <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                        <i class="fa fa-search"></i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">favorite</i></a>
+                    </div>
+                    <!--/.Buttons-->
+
+                    <!--Social buttons-->
+                    <div class="card-reveal text-center">
+                        <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                        <hr>
+                        <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                        <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                        <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                        <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                        <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                        <a class="btn-sm red rectangle waves-effect waves-light"><i class="fa fa-heart"></i></a>
+                    </div>
+                    <!--/.Social buttons-->
+                </div>
+                <!--/.Card-->
+            </div> <!-- md4 -->
+
+            <div class="col-md-2 col-sm-4 col-xs-6">
+
+                <!--Card-->
+                <div class="card card-min hoverable">
+                    <!--Image-->
+                    <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                        <!--Discount label-->
+                        <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                        
+                        <a href=""><img src="img/girl.jpg" class="card-image">
+                            <div class="mask"> </div>
+                        </a>
+                    </div>
+                    <!--/.Image-->
+                    
+                    <!--Social share buttons-->
+                        <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                    <!--/.Social share buttons-->
+
+                    <!--Card content: Name and price-->
+                    <div class="card-content">             
+                        <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                        <p>Slim fit waist Coat</p>
+                    </div>
+                    <!--/.Card content: Name and price-->
+
+                    <!--Buttons-->
+                    <div class="card-btn text-center">
+                        <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                        <i class="fa fa-search"></i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">favorite</i></a>
+                    </div>
+                    <!--/.Buttons-->
+
+                    <!--Social buttons-->
+                    <div class="card-reveal text-center">
+                        <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                        <hr>
+                        <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                        <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                        <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                        <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                        <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                        <a class="btn-sm red rectangle waves-effect waves-light"><i class="fa fa-heart"></i></a>
+                    </div>
+                    <!--/.Social buttons-->
+                </div>
+                <!--/.Card-->
+            </div> <!-- md4 -->
+
+            <div class="col-md-2 col-sm-4 col-xs-6">
+
+                <!--Card-->
+                <div class="card card-min hoverable">
+                    <!--Image-->
+                    <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                        <!--Discount label-->
+                        <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                        
+                        <a href=""><img src="img/jacket.jpg" class="card-image">
+                            <div class="mask"> </div>
+                        </a>
+                    </div>
+                    <!--/.Image-->
+                    
+                    <!--Social share buttons-->
+                        <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                    <!--/.Social share buttons-->
+
+                    <!--Card content: Name and price-->
+                    <div class="card-content">             
+                        <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                        <p>Slim fit waist Coat</p>
+                    </div>
+                    <!--/.Card content: Name and price-->
+
+                    <!--Buttons-->
+                    <div class="card-btn text-center">
+                        <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                        <i class="fa fa-search"></i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">favorite</i></a>
+                    </div>
+                    <!--/.Buttons-->
+
+                    <!--Social buttons-->
+                    <div class="card-reveal text-center">
+                        <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                        <hr>
+                        <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                        <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                        <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                        <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                        <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                        <a class="btn-sm red rectangle waves-effect waves-light"><i class="fa fa-heart"></i></a>
+                    </div>
+                    <!--/.Social buttons-->
+                </div>
+                <!--/.Card-->
+            </div> <!-- md4 -->
+
+            <div class="col-md-2 col-sm-4 col-xs-6">
+
+                <!--Card-->
+                <div class="card card-min hoverable">
+                    <!--Image-->
+                    <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                        <!--Discount label-->
+                        <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                        
+                        <a href=""><img src="img/polo.jpg" class="card-image">
+                            <div class="mask"> </div>
+                        </a>
+                    </div>
+                    <!--/.Image-->
+                    
+                    <!--Social share buttons-->
+                        <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                    <!--/.Social share buttons-->
+
+                    <!--Card content: Name and price-->
+                    <div class="card-content">             
+                        <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                        <p>Slim fit waist Coat</p>
+                    </div>
+                    <!--/.Card content: Name and price-->
+
+                    <!--Buttons-->
+                    <div class="card-btn text-center">
+                        <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                        <i class="fa fa-search"></i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">favorite</i></a>
+                    </div>
+                    <!--/.Buttons-->
+
+                    <!--Social buttons-->
+                    <div class="card-reveal text-center">
+                        <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                        <hr>
+                        <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                        <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                        <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                        <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                        <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                        <a class="btn-sm red rectangle waves-effect waves-light"><i class="fa fa-heart"></i></a>
+                    </div>
+                    <!--/.Social buttons-->
+                </div>
+                <!--/.Card-->
+            </div> <!-- md4 -->
+
+            <div class="col-md-2 col-sm-4 col-xs-6">
+
+                <!--Card-->
+                <div class="card card-min hoverable">
+                    <!--Image-->
+                    <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                        <!--Discount label-->
+                        <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                        
+                        <a href=""><img src="img/imgres.jpg" class="card-image">
+                            <div class="mask"> </div>
+                        </a>
+                    </div>
+                    <!--/.Image-->
+                    
+                    <!--Social share buttons-->
+                        <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                    <!--/.Social share buttons-->
+
+                    <!--Card content: Name and price-->
+                    <div class="card-content">             
+                        <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                        <p>Slim fit waist Coat</p>
+                    </div>
+                    <!--/.Card content: Name and price-->
+
+                    <!--Buttons-->
+                    <div class="card-btn text-center">
+                        <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                        <i class="fa fa-search"></i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">favorite</i></a>
+                    </div>
+                    <!--/.Buttons-->
+
+                    <!--Social buttons-->
+                    <div class="card-reveal text-center">
+                        <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                        <hr>
+                        <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                        <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                        <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                        <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                        <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                        <a class="btn-sm red rectangle waves-effect waves-light"><i class="fa fa-heart"></i></a>
+                    </div>
+                    <!--/.Social buttons-->
+                </div>
+                <!--/.Card-->
+            </div> <!-- md4 -->
+
+            <div class="col-md-2 col-sm-4 col-xs-6">
+
+                <!--Card-->
+                <div class="card card-min hoverable">
+                    <!--Image-->
+                    <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                        <!--Discount label-->
+                        <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                        
+                        <a href=""><img src="img/nojn.jpg" class="card-image">
+                            <div class="mask"> </div>
+                        </a>
+                    </div>
+                    <!--/.Image-->
+                    
+                    <!--Social share buttons-->
+                        <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                    <!--/.Social share buttons-->
+
+                    <!--Card content: Name and price-->
+                    <div class="card-content">             
+                        <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                        <p>Slim fit waist Coat</p>
+                    </div>
+                    <!--/.Card content: Name and price-->
+
+                    <!--Buttons-->
+                    <div class="card-btn text-center">
+                        <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                        <i class="fa fa-search"></i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">favorite</i></a>
+                    </div>
+                    <!--/.Buttons-->
+
+                    <!--Social buttons-->
+                    <div class="card-reveal text-center">
+                        <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                        <hr>
+                        <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                        <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                        <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                        <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                        <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                        <a class="btn-sm red rectangle waves-effect waves-light"><i class="fa fa-heart"></i></a>
+                    </div>
+                    <!--/.Social buttons-->
+                </div>
+                <!--/.Card-->
+            </div> <!-- md4 -->
+
+            <div class="col-md-2 col-sm-4 col-xs-6">
+
+                <!--Card-->
+                <div class="card card-min hoverable">
+                    <!--Image-->
+                    <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                        <!--Discount label-->
+                        <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                        
+                        <a href=""><img src="img/nonjn.jpg" class="card-image">
+                            <div class="mask"> </div>
+                        </a>
+                    </div>
+                    <!--/.Image-->
+                    
+                    <!--Social share buttons-->
+                        <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                    <!--/.Social share buttons-->
+
+                    <!--Card content: Name and price-->
+                    <div class="card-content">             
+                        <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                        <p>Slim fit waist Coat</p>
+                    </div>
+                    <!--/.Card content: Name and price-->
+
+                    <!--Buttons-->
+                    <div class="card-btn text-center">
+                        <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                        <i class="fa fa-search"></i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">favorite</i></a>
+                    </div>
+                    <!--/.Buttons-->
+
+                    <!--Social buttons-->
+                    <div class="card-reveal text-center">
+                        <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                        <hr>
+                        <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                        <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                        <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                        <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                        <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                        <a class="btn-sm red rectangle waves-effect waves-light"><i class="fa fa-heart"></i></a>
+                    </div>
+                    <!--/.Social buttons-->
+                </div>
+                <!--/.Card-->
+            </div> <!-- md4 -->
+
+            <div class="col-md-2 col-sm-4 col-xs-6">
+
+                <!--Card-->
+                <div class="card card-min hoverable">
+                    <!--Image-->
+                    <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                        <!--Discount label-->
+                        <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                        
+                        <a href=""><img src="img/download.jpg" class="card-image">
+                            <div class="mask"> </div>
+                        </a>
+                    </div>
+                    <!--/.Image-->
+                    
+                    <!--Social share buttons-->
+                        <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                    <!--/.Social share buttons-->
+
+                    <!--Card content: Name and price-->
+                    <div class="card-content">             
+                        <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                        <p>Slim fit waist Coat</p>
+                    </div>
+                    <!--/.Card content: Name and price-->
+
+                    <!--Buttons-->
+                    <div class="card-btn text-center">
+                        <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                        <i class="fa fa-search"></i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">favorite</i></a>
+                    </div>
+                    <!--/.Buttons-->
+
+                    <!--Social buttons-->
+                    <div class="card-reveal text-center">
+                        <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                        <hr>
+                        <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                        <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                        <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                        <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                        <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                        <a class="btn-sm red rectangle waves-effect waves-light"><i class="fa fa-heart"></i></a>
+                    </div>
+                    <!--/.Social buttons-->
+                </div>
+                <!--/.Card-->
+            </div> <!-- md4 -->
+
+            <div class="col-md-2 col-sm-4 col-xs-6">
+
+                <!--Card-->
+                <div class="card card-min hoverable">
+                    <!--Image-->
+                    <div class="card-image waves-effect waves-block waves-light view overlay hm-white-slight">
+                        <!--Discount label-->
+                        <h6 class="card-label"> <span class="label rgba-purple-strong">15 $</span></h6>
+                        
+                        <a href=""><img src="img/aaaa.jpg" class="card-image">
+                            <div class="mask"> </div>
+                        </a>
+                    </div>
+                    <!--/.Image-->
+                    
+                    <!--Social share buttons-->
+                        <a class="btn-floating btn-small waves-effect waves-light blue darken-4 activator" data-toggle="tooltip" data-placement="left" data-original-title="Share"><i class="material-icons">share</i></a>
+                    <!--/.Social share buttons-->
+
+                    <!--Card content: Name and price-->
+                    <div class="card-content">             
+                        <a href=""><h6 class="product-title">Lois Vuitton</h6></a>
+                        <p>Slim fit waist Coat</p>
+                    </div>
+                    <!--/.Card content: Name and price-->
+
+                    <!--Buttons-->
+                    <div class="card-btn text-center">
+                        <a href="product.html" class="btn-floating btn-small waves-effect waves-light blue">
+                        <i class="fa fa-search"></i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light default-color"><i class="material-icons">add_shopping_cart</i></a>
+                        <a href="#" class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">favorite</i></a>
+                    </div>
+                    <!--/.Buttons-->
+
+                    <!--Social buttons-->
+                    <div class="card-reveal text-center">
+                        <span class="card-title grey-text text-darken-4">Share with your friends:<i class="material-icons right">close</i></span>
+                        <hr>
+                        <a class="btn-sm fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+                        <a class="btn-sm tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+                        <a class="btn-sm gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+                        <a class="btn-sm ins-bg rectangle waves-effect waves-light"><i class="fa fa-instagram"> </i></a>
+                        <a class="btn-sm email-bg rectangle waves-effect waves-light"><i class="fa fa-envelope-o"> </i></a>
+                        <a class="btn-sm red rectangle waves-effect waves-light"><i class="fa fa-heart"></i></a>
+                    </div>
+                    <!--/.Social buttons-->
+                </div>
+                <!--/.Card-->
+            </div> <!-- md4 -->
+
+        </div>
+    </div>
+</div>
+
+
+  </div>
+
+</div>
+
+  <!-- Footer -->
+  <footer class="page-footer default-color darken-1" if="footer">
+    <div class="container">
+      <div class="row">
+        <hr class="hidden-lg hidden-md">
+
+        <div class="col-md-2">
+          <p class="white-text center-on-small-only">USEFUL LINKS</p>
+          <ul>
+            <li><a href="#" class="grey-text text-lighten-3" href="#!">Contact us</a>
+            </li>
+            <li><a class="grey-text text-lighten-3" href="#!" target="_blank">About</a>
+            </li>
+            <li><a class="grey-text text-lighten-3" href="#!" target="_blank">Support</a>
+            </li>
+            <li><a class="grey-text text-lighten-3" href="#!" target="_blank">Privact & Policy</a>
+            </li>
+
+          </ul>
+        </div>
+        <hr class="hidden-lg hidden-md">
+
+        <div class="col-md-3 text-center pull-right">
+          <p class="white-text text-center"> SOCIAL MEDIA</p>
+          <a target="_blank" href="#" class="btn-floating btn-large fb-bg waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+          <a target="_blank" href="#" class="btn-floating btn-large tw-bg waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+          <a target="_blank" href="#" class="btn-floating btn-large gplus-bg waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="text-center">
+        <div class="col-md-10 col-md-offset-1"> © 2015 Copyright <a href="">Designed By: Azim Mukri </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!-- Start your project here-->
+
+    <!-- /Start your project here-->
+    
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Core JavaScript -->
+    <script type="text/javascript" src="js/mdb2.js"></script>
+
+    <!-- Special JavaScript -->
+    <script type="text/javascript" src="js/app.js"></script>
+
+
+</body>
+
+</html>

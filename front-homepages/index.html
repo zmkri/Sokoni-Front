@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <title>Sokoni App</title>
+
+    <!-- Icons -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Material Design -->
+    <link href="css/mdb2.css" rel="stylesheet" type="text/css">   
+
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<nav class="navbar default-color">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container-fluid">
+                <nav class="navbar default-color">
+                    <!-- Some stuff like the brand image, search box etc. -->
+                    <div class="container">
+                      <div class="row">  
+                        <div class="col-md-12">
+                            <div class="col-md-2">
+                            <h4><a class="navbar-brand waves-effect waves-light" href="#"><span class="romanesco">Sokoni</span></a></h4>
+                            </div>
+                            <div class="col-md-2 col-xs-12">
+                            <br>
+                                <select class="white-text">
+                                    <option value="" disabled selected>Category</option>
+                                    <option value="1">Auto Parts</option>
+                                    <option value="2">Computers</option>
+                                    <option value="3">Clothes</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-xs-12">
+                                <div class="col-md-12 input-field waves-effect waves-light">
+                                    <input type="text" class="form-control" id="search" class="white-text">
+                                    <label for="search">Search</label>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-2">
+                                <!-- <a href="" class="btn btn-block btn-rounded default-color"><span class="white-text"><i class="material-icons prefix">search</i></span></a> -->
+                              
+                                <a class="btn-floating btn-large waves-effect waves-light default-color"><i class="material-icons">search</i></a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>            
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container-fluid">
+                <nav class="navbar default-color">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand waves-effect waves-light" href="#"><span class="romanesco">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html" class="waves-effect waves-light">Home <span class="sr-only">(current)</span></a></li>
+                            <li><a href="shops.html" class="waves-effect waves-light">Shop</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="pull-right"><a href="login.html" class="waves-effect waves-light">Login/SignUp</a></li>
+                            <li class="pull-right dropdown">
+                            <!-- <a href="#" class="waves-effect waves-light">Cart</a> -->
+                            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <span class="glyphicon glyphicon-shopping-cart"></span> 7 - Items<span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-cart default-color" role="menu">
+              <li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="http://lorempixel.com/50/50/" alt="" />
+                        <span class="item-info">
+                            <span>Item name</span>
+                            <span>23$</span>
+                        </span>
+                    </span>
+                    <span class="item-right white-text"><i class="material-icons right ">close</i></span></span>
+                </span>
+              </li>
+              <li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="http://lorempixel.com/50/50/" alt="" />
+                        <span class="item-info">
+                            <span>Item name</span>
+                            <span>23$</span>
+                        </span>
+                    </span>
+                    <span class="item-right"><i class="material-icons right">close</i></span></span>
+                </span>
+              </li>
+              <li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="http://lorempixel.com/50/50/" alt="" />
+                        <span class="item-info">
+                            <span>Item name</span>
+                            <span>23$</span>
+                        </span>
+                    </span>
+                    <span class="item-right"><i class="material-icons right">close</i></span></span>
+                </span>
+              </li>
+              <li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="http://lorempixel.com/50/50/" alt="" />
+                        <span class="item-info">
+                            <span>Item name</span>
+                            <span>23$</span>
+                        </span>
+                    </span>
+                    <span class="item-right"><i class="material-icons right">close</i></span></span>
+                </span>
+              </li>
+              <li class="divider"></li>
+              <li><a class="text-center last" href="">View Cart</a></li>
+          </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="carousel-container">
+        <!-- Carousel -->
+        <div id="carousel1" class="carousel slide carousel-fade hoverable">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel1" data-slide-to="0" class="active">
+                </li>
+                <li data-target="#carousel1" data-slide-to="1"></li>
+                <li data-target="#carousel1" data-slide-to="2"></li>
+                <li data-target="#carousel1" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner z-depth-2" role="listbox">
+
+                <!-- First slide -->
+                <div class="item active img-narrow">
+                    <div class="homepage-hero-module img-narrow">
+                            <iframe width="100%" height="370" src="https://www.youtube.com/embed/nGx0_ChcD9A" frameborder="0" class="img-narrow" alt="slide2"></iframe>
+                        <!-- Alternative image -->
+                        <div class="poster hidden">
+                            <img src="img/banner-3.png" alt="" class="img-responsive img-narrow" alt="slide1">
+                        </div>
+                    </div>
+                </div>
+                <!-- /.item -->
+
+                <!-- Second slide -->
+                <div class="item">
+                    <div class="view overlay hm-blue-slight">
+                        <a><img src="img/dealofday-banner.jpg" class="img-responsive img-narrow" alt="slide2">
+                        </a>
+                        <div class="carousel-caption hidden-xs">
+                            <div class="animated fadeInDown">
+                                <h5>Lorem ipsum dolor sit amet</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third slide -->
+                <div class="item">
+                    <div class="view overlay hm-blue-slight">
+                        <a><img src="img/freebies2deals-deal-of-the-day-smiths.jpg" class="img-responsive img-narrow" alt="slide3">
+                        </a>
+                        <div class="carousel-caption hidden-xs">
+                            <div class="animated fadeInDown">
+                                <h5>Lorem ipsum dolor sit amet</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.item -->
+
+                <!-- Third slide -->
+                <div class="item">
+                    <div class="view overlay hm-blue-slight">
+                        <a><img src="img/banner-3.png" class="img-responsive img-narrow" alt="slide4">
+                        </a>
+                        <div class="carousel-caption hidden-xs">
+                            <div class="animated fadeInDown">
+                                <h5>Lorem ipsum dolor sit amet</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.item -->
+
+            </div>
+            <!-- /.carousel-inner -->
+
+            <!-- Controls -->
+            <a class="left carousel-control new-control" href="#carousel1" role="button" data-slide="prev">
+                <span class="fa fa fa-angle-left waves-effect waves-light"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control new-control" href="#carousel1" role="button" data-slide="next">
+                <span class="fa fa fa-angle-right waves-effect waves-light"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+        </div>
+        <!-- /.carousel -->
+</div>
+
+<br>
+<hr>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-3 text-center">
+            <h4><a class="btn-floating btn-large waves-effect waves-light default-color"><i class="material-icons">search</i></a></h4>
+            <p>Search Best Products</p>
+        </div>
+        <div class="col-md-3 text-center">
+            <h4><a class="btn-floating btn-large waves-effect waves-light default-color"><i class="material-icons">attach_money</i></a></h4>
+            <p> Cheapest Prices</p>
+
+        </div>
+        <div class="col-md-3 text-center">
+            <h4><a class="btn-floating btn-large waves-effect waves-light default-color"><i class="material-icons">share</i></a></h4>
+            <p>Share and Make Money</p>
+        </div>
+        <div class="col-md-3 text-center">
+            <h4><a class="btn-floating btn-large waves-effect waves-light default-color"><i class="material-icons">monetization_on</i></a></h4>
+            <p>Open A Merchant Account and Make Money</p>
+        </div>
+    </div>
+
+    <hr>
+
+
+<div class="row">
+	<div class="col-md-8">
+	
+	<div class="col-md-6">
+        <!--Image Card-->
+        <div class="card hoverable">
+            <div class="card-image">
+                <div class="view z-depth-1">
+                    <img src="img/index.jpg" class="img-responsive" alt="">
+                </div>
+            </div>
+            <div class="card-content">
+                <h5 class="romanesco">Product Of The Day</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id amet, quisquam modi nobis nostrum iusto incidunt dolore assumenda delectus officia quia, sequi eum perspiciatis architecto. Ullam voluptatum, facere nihil quidem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id amet.</p>
+            </div>
+
+        </div>
+        <!--Image Card-->
+	</div>	
+	<div class="col-md-6">
+        <!--Image Card-->
+        <div class="card hoverable">
+            <div class="card-image">
+                <div class="view z-depth-1">
+                    <img src="img/index.jpg" class="img-responsive" alt="">
+                </div>
+            </div>
+            <div class="card-content">
+                <h5 class="romanesco">Product Of The Day</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id amet, quisquam modi nobis nostrum iusto incidunt dolore assumenda delectus officia quia, sequi eum perspiciatis architecto. Ullam voluptatum, facere nihil quidem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id amet.</p>
+            </div>
+
+        </div>
+        <!--Image Card-->
+	</div>
+		
+	</div>
+	<div class="col-md-4">
+        <!--Image Card-->
+        <div class="card hoverable">
+            <div class="card-image">
+                <div class="view overlay hm-white-slight z-depth-1" style="height: 230px;">
+                    <img src="img/bonus.png" class="img-responsive" alt="" >
+                </div>
+            </div>
+            <div class="card-content">
+                <h5 class="romanesco">Earn Bonus Points</h5>
+                <p>You can't afford what you are dying for? Dont give up on yourself! Earn shopping points for unlimited shopping discount. All you need is to tell a friend to tell a friend </p>
+            </div>
+        </div>
+        <!--Image Card-->
+		
+
+            <div class="card default-color darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title">Sign Up To Earn Points</span>
+                    <a class="btn btn-default btn-block" href="login.html">Sign Up</a>
+                </div>
+            </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="col-md-12">
+    <div class="text-center">
+       <h4>Available Stores</h4>
+    </div>
+    <div class="col-md-3">
+    <!--Card-->
+        <div class="collection-card hoverable view overlay hm-zoom z-depth-1">
+            <!--Card image-->
+            <img src="img/img-soko-2.jpg" class="img-responsive">
+            <div class="mask"></div>
+            <!--Card footer-->
+            <div class="card-footer rgba-white-strong">
+                <!-- Title -->
+                <a href="" class="black-text"><h6 class="h5-responsive">Azeem Computers <i class="material-icons">chevron_right</i></h6></a>
+                <!--Card details-->
+            </div>
+        </div>
+        <!--/.Card-->
+    </div>
+    <div class="col-md-3">
+    <!--Card-->
+        <div class="collection-card hoverable view overlay hm-zoom z-depth-1">
+            <!--Card image-->
+            <img src="img/img-soko-2.jpg" class="img-responsive">
+            <div class="mask"></div>
+            <!--Card footer-->
+            <div class="card-footer rgba-white-strong">
+                <!-- Title -->
+                <a href="" class="black-text"><h6 class="h5-responsive">Azeem Computers <i class="material-icons">chevron_right</i></h6></a>
+                <!--Card details-->
+            </div>
+        </div>
+        <!--/.Card-->
+    </div>
+    <div class="col-md-3">
+    <!--Card-->
+        <div class="collection-card hoverable view overlay hm-zoom z-depth-1">
+            <!--Card image-->
+            <img src="img/img-soko-2.jpg" class="img-responsive">
+            <div class="mask"></div>
+            <!--Card footer-->
+            <div class="card-footer rgba-white-strong">
+                <!-- Title -->
+                <a href="" class="black-text"><h6 class="h5-responsive">Azeem Computers <i class="material-icons">chevron_right</i></h6></a>
+                <!--Card details-->
+            </div>
+        </div>
+        <!--/.Card-->
+    </div>
+    <div class="col-md-3">
+    <!--Card-->
+        <div class="collection-card hoverable view overlay hm-zoom z-depth-1">
+            <!--Card image-->
+            <img src="img/img-soko-2.jpg" class="img-responsive">
+            <div class="mask"></div>
+            <!--Card footer-->
+            <div class="card-footer rgba-white-strong">
+                <!-- Title -->
+                <a href="" class="black-text"><h6 class="h5-responsive">Azeem Computers <i class="material-icons">chevron_right</i></h6></a>
+                <!--Card details-->
+            </div>
+        </div>
+        <!--/.Card-->
+    </div>
+    <div class="col-md-3">
+    <!--Card-->
+        <div class="collection-card hoverable view overlay hm-zoom z-depth-1">
+            <!--Card image-->
+            <img src="img/img-soko-2.jpg" class="img-responsive">
+            <div class="mask"></div>
+            <!--Card footer-->
+            <div class="card-footer rgba-white-strong">
+                <!-- Title -->
+                <a href="" class="black-text"><h6 class="h5-responsive">Azeem Computers <i class="material-icons">chevron_right</i></h6></a>
+                <!--Card details-->
+            </div>
+        </div>
+        <!--/.Card-->
+    </div>
+    <div class="col-md-3">
+    <!--Card-->
+        <div class="collection-card hoverable view overlay hm-zoom z-depth-1">
+            <!--Card image-->
+            <img src="img/img-soko-2.jpg" class="img-responsive">
+            <div class="mask"></div>
+            <!--Card footer-->
+            <div class="card-footer rgba-white-strong">
+                <!-- Title -->
+                <a href="" class="black-text"><h6 class="h5-responsive">Azeem Computers <i class="material-icons">chevron_right</i></h6></a>
+                <!--Card details-->
+            </div>
+        </div>
+        <!--/.Card-->
+    </div>
+    <div class="col-md-3">
+    <!--Card-->
+        <div class="collection-card hoverable view overlay hm-zoom z-depth-1">
+            <!--Card image-->
+            <img src="img/img-soko-2.jpg" class="img-responsive">
+            <div class="mask"></div>
+            <!--Card footer-->
+            <div class="card-footer rgba-white-strong">
+                <!-- Title -->
+                <a href="" class="black-text"><h6 class="h5-responsive">Azeem Computers <i class="material-icons">chevron_right</i></h6></a>
+                <!--Card details-->
+            </div>
+        </div>
+        <!--/.Card-->
+    </div>
+    <div class="col-md-3">
+    <!--Card-->
+        <div class="collection-card hoverable view overlay hm-zoom z-depth-1">
+            <!--Card image-->
+            <img src="" class="img-responsive">
+            <div class="mask"></div>
+            <!--Card footer-->
+            <div class="card-footer rgba-white-strong">
+                <!-- Title -->
+                <a href="" class="black-text"><h6 class="h5-responsive">Azeem Computers <i class="material-icons">chevron_right</i></h6></a>
+                <!--Card details-->
+            </div>
+        </div>
+        <!--/.Card-->
+    </div>
+
+    <div class="col-md-8 col-md-offset-2">
+        <div class="default-color">
+           <a class="btn btn-default btn-block" href="shops.html">View All Shops</a>
+        </div>
+    </div>
+
+</div>
+
+
+</div> <!-- Main Container -->
+
+
+  <!-- Footer -->
+  <footer class="page-footer default-color darken-1" if="footer">
+    <div class="container">
+      <div class="row">
+        <hr class="hidden-lg hidden-md">
+
+        <div class="col-md-2">
+          <p class="white-text center-on-small-only">USEFUL LINKS</p>
+          <ul>
+            <li><a href="#" class="grey-text text-lighten-3" href="#!">Contact us</a>
+            </li>
+            <li><a class="grey-text text-lighten-3" href="#!" target="_blank">About</a>
+            </li>
+            <li><a class="grey-text text-lighten-3" href="#!" target="_blank">Support</a>
+            </li>
+            <li><a class="grey-text text-lighten-3" href="#!" target="_blank">Privact & Policy</a>
+            </li>
+
+          </ul>
+        </div>
+        <hr class="hidden-lg hidden-md">
+
+        <div class="col-md-3 text-center pull-right">
+          <p class="white-text text-center"> SOCIAL MEDIA</p>
+          <a target="_blank" href="#" class="btn-floating btn-large fb-bg waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+          <a target="_blank" href="#" class="btn-floating btn-large tw-bg waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+          <a target="_blank" href="#" class="btn-floating btn-large gplus-bg waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="text-center">
+        <div class="col-md-10 col-md-offset-1"> © 2015 Copyright <a href="">Designed By: Azim Mukri </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+    <!-- Start your project here-->
+
+    <!-- /Start your project here-->
+    
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Core JavaScript -->
+    <script type="text/javascript" src="js/mdb2.js"></script>
+
+    <!-- Extra JavaScript -->
+    <script type="text/javascript" src="js/app.js"></script>
+
+
+
+</body>
+
+</html>
